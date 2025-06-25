@@ -80,3 +80,20 @@ User-friendly UI dashboard enables easy parameter selection without technical ex
 Automated email notifications improve communication and tracking for the Production Support Team.
 
 Enhanced reliability in IR link generation and delivery through streamlined backend processes.
+
+
+Problem statement
+
+New client onboarding often includes requests for one-time historical data delivery.
+
+Requests vary by:
+
+Time Duration (e.g., 5, 10, 15 years)
+
+File Combinations (e.g., HTML + XML, HTML + TXT, etc.)
+
+Current process involves manual execution of scripts, file pairing, validation, and packaging.
+
+The manual approach is time-consuming, error-prone, and not scalable.
+
+Automation is needed to streamline delivery, reduce manual effort, and improve reliability.
