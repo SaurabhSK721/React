@@ -97,3 +97,16 @@ Current process involves manual execution of scripts, file pairing, validation, 
 The manual approach is time-consuming, error-prone, and not scalable.
 
 Automation is needed to streamline delivery, reduce manual effort, and improve reliability.
+
+
+File Pairing (HTML + TXT/XML):
+Manually identify and create required file pairs.
+If HTML is unavailable, trigger a script to retrieve the corresponding TXT/XML files from the S3 database.
+
+🔹 Size Verification of Zipped Folders:
+Ensure that each zipped folder containing file pairs does not exceed 1.5 GB.
+Manually split or repackage if size exceeds the limit.
+
+🔹 Akamai Upload Monitoring:
+In case the IR Link upload to Akamai fails, manually verify the failure.
+Take corrective actions to re-upload and confirm successful delivery.
